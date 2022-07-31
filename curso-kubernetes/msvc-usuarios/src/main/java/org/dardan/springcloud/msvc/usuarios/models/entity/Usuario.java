@@ -1,4 +1,4 @@
-package org.aguzman.springcloud.msvc.usuarios.models.entity;
+package org.dardan.springcloud.msvc.usuarios.models.entity;
 
 import javax.persistence.*;
 

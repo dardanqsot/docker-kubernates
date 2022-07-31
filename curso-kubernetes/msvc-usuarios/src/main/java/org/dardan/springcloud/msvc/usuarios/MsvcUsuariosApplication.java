@@ -1,4 +1,4 @@
-package org.aguzman.springcloud.msvc.usuarios;
+package org.dardan.springcloud.msvc.usuarios;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
