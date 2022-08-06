@@ -30,4 +30,22 @@ public class UsuarioController {
         return ResponseEntity.notFound().build();
     }
 
+    @PostMapping
+    public ResponseEntity<?> crear(@RequestBody Usuario usuario) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(service.guardar(usuario));
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<?> editar(@RequestBody Usuario usuario, @PathVariable Long id) {
+        Optional<Usuario> o = service.porId(id);
+        if (o.isPresent()) {
+            Usuario usuarioDb = o.get();
+            usuarioDb.setNombre(usuario.getNombre());
+            usuarioDb.setEmail(usuario.getEmail());
+            usuarioDb.setPassword(usuario.getPassword());
+            return ResponseEntity.status(HttpStatus.CREATED).body(service.guardar(usuarioDb));
+        }
+        return ResponseEntity.notFound().build();
+    }
+
 }
