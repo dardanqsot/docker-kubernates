@@ -29,4 +29,31 @@ public class CursoController {
         }
         return ResponseEntity.notFound().build();
     }
+
+    @PostMapping("/")
+    public ResponseEntity<?> crear(@RequestBody Curso curso) {
+        Curso cursoDb = service.guardar(curso);
+        return ResponseEntity.status(HttpStatus.CREATED).body(cursoDb);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<?> editar(@RequestBody Curso curso, @PathVariable Long id) {
+        Optional<Curso> o = service.porId(id);
+        if (o.isPresent()) {
+            Curso cursoDb = o.get();
+            cursoDb.setNombre(curso.getNombre());
+            return ResponseEntity.status(HttpStatus.CREATED).body(service.guardar(cursoDb));
+        }
+        return ResponseEntity.notFound().build();
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<?> eliminar(@PathVariable Long id) {
+        Optional<Curso> o = service.porId(id);
+        if (o.isPresent()) {
+            service.eliminar(o.get().getId());
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.notFound().build();
+    }
 }
