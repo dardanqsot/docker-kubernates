@@ -29,3 +29,5 @@ F
 msvc-cursos/.gitignore,d\6\d65bc4e84684d570afb9d6beebc63af768d25f0a
 Œ
 \msvc-cursos/src/test/java/org/dardan/springcloud/msvc/cursos/MsvcCursosApplicationTests.java,8\0\80cc62ed56b63c5d21128c9730826faaf9d0aa76
+‡
+Wmsvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/MsvcCursosApplication.java,8\b\8b08bf2bdc8d07480a91a95dabd5d3ccf459ec70

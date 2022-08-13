@@ -2,6 +2,7 @@ package org.dardan.springcloud.msvc.usuarios.models.entity;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 
 @Entity
@@ -12,7 +13,7 @@ public class Usuario {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotEmpty
+    @NotBlank
     private String nombre;
 
     @NotEmpty
@@ -20,7 +21,7 @@ public class Usuario {
     @Column(unique = true)
     private String email;
 
-    @NotEmpty
+    @NotBlank
     private String password;
 
     public Long getId() {
