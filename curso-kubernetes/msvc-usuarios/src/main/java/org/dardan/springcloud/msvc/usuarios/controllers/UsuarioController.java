@@ -38,7 +38,7 @@ public class UsuarioController {
             return validar(result);
         }
 
-        if (service.porEmail(usuario.getEmail()).isPresent()) {
+        if (!usuario.getEmail().isEmpty() && service.existePorEmail(usuario.getEmail())) {
             return ResponseEntity.badRequest()
                     .body(Collections
                             .singletonMap("mensaje", "Ya existe un usuario con ese correo electronico!"));
