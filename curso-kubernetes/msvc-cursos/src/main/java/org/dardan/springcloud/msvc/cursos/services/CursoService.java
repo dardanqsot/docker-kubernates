@@ -1,7 +1,7 @@
 package org.dardan.springcloud.msvc.cursos.services;
 
 
-import org.dardan.springcloud.msvc.cursos.entity.Curso;
+import org.dardan.springcloud.msvc.cursos.models.entity.Curso;
 
 import java.util.List;
 import java.util.Optional;

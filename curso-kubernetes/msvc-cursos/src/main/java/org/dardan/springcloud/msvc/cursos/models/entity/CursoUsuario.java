@@ -1,4 +1,4 @@
-package org.dardan.springcloud.msvc.cursos.entity;
+package org.dardan.springcloud.msvc.cursos.models.entity;
 
 import javax.persistence.*;
 
