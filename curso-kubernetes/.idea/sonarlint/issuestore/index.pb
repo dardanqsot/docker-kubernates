@@ -29,3 +29,7 @@ C
 msvc-cursos/pom.xml,c\9\c992d90804b37b1ae4d2f0e63baab9da8288400a
 Ž
 ^msvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/repositories/CursoRepository.java,0\a\0a3dd850a37967b24925b9a733a2d62cc1e7cb27
+€
+Pmsvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/models/Usuario.java,8\e\8edacbf2cfd8d2f107b04ea732cd89dec5aa283f
+“
+cmsvc-usuarios/src/main/java/org/dardan/springcloud/msvc/usuarios/controllers/UsuarioController.java,a\7\a7ac5e5904c2dcc84d0411d384c7f7061589b017
