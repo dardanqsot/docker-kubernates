@@ -23,10 +23,6 @@ F
 msvc-cursos/.gitignore,d\6\d65bc4e84684d570afb9d6beebc63af768d25f0a
 Œ
 \msvc-cursos/src/test/java/org/dardan/springcloud/msvc/cursos/MsvcCursosApplicationTests.java,8\0\80cc62ed56b63c5d21128c9730826faaf9d0aa76
-‡
-Wmsvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/MsvcCursosApplication.java,8\b\8b08bf2bdc8d07480a91a95dabd5d3ccf459ec70
-C
-msvc-cursos/pom.xml,c\9\c992d90804b37b1ae4d2f0e63baab9da8288400a
 Ž
 ^msvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/repositories/CursoRepository.java,0\a\0a3dd850a37967b24925b9a733a2d62cc1e7cb27
 €

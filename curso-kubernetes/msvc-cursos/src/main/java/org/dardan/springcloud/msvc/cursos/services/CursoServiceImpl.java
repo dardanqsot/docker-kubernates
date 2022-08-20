@@ -1,5 +1,6 @@
 package org.dardan.springcloud.msvc.cursos.services;
 
+import org.dardan.springcloud.msvc.cursos.clients.UsuarioClientRest;
 import org.dardan.springcloud.msvc.cursos.models.Usuario;
 import org.dardan.springcloud.msvc.cursos.models.entity.Curso;
 import org.dardan.springcloud.msvc.cursos.repositories.CursoRepository;
@@ -21,6 +22,9 @@ public class CursoServiceImpl implements CursoService{
     public List<Curso> listar() {
         return (List<Curso>) repository.findAll();
     }
+
+    @Autowired
+    private UsuarioClientRest client;
 
     @Override
     @Transactional(readOnly = true)
