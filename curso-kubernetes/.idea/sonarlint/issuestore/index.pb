@@ -11,8 +11,6 @@ c
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 í
 bmsvc-usuarios/src/test/java/org/dardan/springcloud/msvc/usuarios/MsvcUsuariosApplicationTests.java,2\c\2cd16ac9301945cf4159f2b25a33a1322fcc9d03
-ç
-]msvc-usuarios/src/main/java/org/dardan/springcloud/msvc/usuarios/MsvcUsuariosApplication.java,b\8\b83bafa2b266d7b862e9d07a437c1d78b555706d
 a
 1msvc-cursos/.mvn/wrapper/maven-wrapper.properties,6\1\61e906f2c6bbdcf263d6ea57141d72a31c74bfb3
 D
@@ -27,8 +25,6 @@ F
 ^msvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/repositories/CursoRepository.java,0\a\0a3dd850a37967b24925b9a733a2d62cc1e7cb27
 Ä
 Pmsvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/models/Usuario.java,8\e\8edacbf2cfd8d2f107b04ea732cd89dec5aa283f
-ì
-cmsvc-usuarios/src/main/java/org/dardan/springcloud/msvc/usuarios/controllers/UsuarioController.java,a\7\a7ac5e5904c2dcc84d0411d384c7f7061589b017
 á
 Wmsvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/services/CursoService.java,7\4\744c8a2a6e5c66ada50ef08971655b292b54d3b8
 Ö

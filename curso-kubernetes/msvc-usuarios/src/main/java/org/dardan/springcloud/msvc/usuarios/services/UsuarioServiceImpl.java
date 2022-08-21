@@ -40,6 +40,17 @@ public class UsuarioServiceImpl implements UsuarioService{
     }
 
     @Override
+    @Transactional(readOnly = true)
+    public List<Usuario> listarPorIds(Iterable<Long> ids) {
+        return (List<Usuario>) repository.findAllById(ids);
+    }
+
+    @Override
+    public Optional<Usuario> porEmail(String email) {
+        return repository.porEmail(email);
+    }
+
+    @Override
     public boolean existePorEmail(String email) {
         return repository.existsByEmail(email);
     }
