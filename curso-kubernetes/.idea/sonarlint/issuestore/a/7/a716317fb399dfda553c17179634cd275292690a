@@ -1,15 +1,0 @@
-
-<
-java:S1452"&Remove usage of generic wildcard type.(íÜëá
-[
-java:S4684&"@Replace this persistent entity with a simple POJO or DTO object.(–ìËÖùÿÿÿÿ
-A
-java:S1452&"&Remove usage of generic wildcard type.(–ìËÖùÿÿÿÿ
-[
-java:S4684/"@Replace this persistent entity with a simple POJO or DTO object.(¾éßûúÿÿÿÿ
-A
-java:S1452/"&Remove usage of generic wildcard type.(¾éßûúÿÿÿÿ
-A
-java:S1452="&Remove usage of generic wildcard type.(”øÈ»þÿÿÿÿ
-B
-java:S1602H",Remove useless curly braces around statement(Óÿé¬

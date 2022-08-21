@@ -31,8 +31,6 @@ Pmsvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/models/Usuario.jav
 cmsvc-usuarios/src/main/java/org/dardan/springcloud/msvc/usuarios/controllers/UsuarioController.java,a\7\a7ac5e5904c2dcc84d0411d384c7f7061589b017
 á
 Wmsvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/services/CursoService.java,7\4\744c8a2a6e5c66ada50ef08971655b292b54d3b8
-ç
-]msvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/controllers/CursoController.java,a\7\a716317fb399dfda553c17179634cd275292690a
 Ö
 Umsvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/models/entity/Curso.java,6\4\643e11f99fb9cb6f2b2cc43813dbc4f811722b6b
 å
