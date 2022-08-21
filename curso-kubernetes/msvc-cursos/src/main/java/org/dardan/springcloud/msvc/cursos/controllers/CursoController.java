@@ -81,6 +81,12 @@ public class CursoController {
         return  ResponseEntity.notFound().build();
     }
 
+    @DeleteMapping("/eliminar-curso-usuario/{id}")
+    public ResponseEntity<?> eliminarCursoUsuarioPorId(@PathVariable Long id){
+        service.eliminarCursoUsuarioPorId(id);
+        return ResponseEntity.noContent().build();
+    }
+
     @PostMapping("/")
     public ResponseEntity<?> crear(@Valid @RequestBody Curso curso, BindingResult result) {
         if(result.hasErrors()){
