@@ -12,3 +12,19 @@ cmsvc-usuarios/src/main/java/org/dardan/springcloud/msvc/usuarios/controllers/Us
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+é
+^msvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/repositories/CursoRepository.java,0\a\0a3dd850a37967b24925b9a733a2d62cc1e7cb27
+á
+Wmsvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/services/CursoService.java,7\4\744c8a2a6e5c66ada50ef08971655b292b54d3b8
+ã
+[msvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/services/CursoServiceImpl.java,a\8\a87a96bee7cd1c2bb027c7317e10bb8bc22c43f1
+ç
+]msvc-cursos/src/main/java/org/dardan/springcloud/msvc/cursos/controllers/CursoController.java,a\7\a716317fb399dfda553c17179634cd275292690a
+é
+^msvc-usuarios/src/main/java/org/dardan/springcloud/msvc/usuarios/clients/CursoClienteRest.java,5\7\57ffc29bb5d2b360d1b387d31f295deebb3ae29c
+ë
+amsvc-usuarios/src/main/java/org/dardan/springcloud/msvc/usuarios/services/UsuarioServiceImpl.java,f\c\fcdd227034b77d1cb72628a88d494c546bfff477
+ç
+]msvc-usuarios/src/main/java/org/dardan/springcloud/msvc/usuarios/MsvcUsuariosApplication.java,b\8\b83bafa2b266d7b862e9d07a437c1d78b555706d
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
