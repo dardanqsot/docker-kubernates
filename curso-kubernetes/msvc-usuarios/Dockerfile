@@ -1,4 +1,4 @@
-FROM openjdk:18.0.2
+FROM openjdk:18-jdk-alpine as builder
 
 WORKDIR /app/msvc-usuarios
 
@@ -14,6 +14,11 @@ COPY ./msvc-usuarios/src ./src
 
 RUN ./mvnw clean clean package -DskipTests
 
+FROM openjdk:18-jdk-alpine
+
+WORKDIR /app
+
+COPY --from=builder /app/msvc-usuarios/target/msvc-usuarios-0.0.1-SNAPSHOT.jar .
 EXPOSE 8001
 
-ENTRYPOINT ["java", "-jar", "./target/msvc-usuarios-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "msvc-usuarios-0.0.1-SNAPSHOT.jar"]
